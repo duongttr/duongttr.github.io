@@ -27,7 +27,7 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 Hi newcomers 👋👋👋 !!!
 
-My name is **Duong Thanh Tran** (you can call me **Jayden**). I'm currently Ph.D. Student @  Department of Integrative Biotechnology, College of Biotechnology and Bioengineering, Sungkyunkwan University (SKKU), Republic of Korea 🇰🇷. 
+My name is **Duong Thanh Tran** (you can call me **Jayden**). I'm currently Ph.D. Student @ Department of Integrative Biotechnology, College of Biotechnology and Bioengineering, Sungkyunkwan University (SKKU), Republic of Korea 🇰🇷.
 
 I'm also working as a full-time researcher under the guidance of Professor [Balachandran Manavalan](https://scholar.google.com/citations?user=0vkenbwAAAAJ) in the [Computational Biology and Bioinformatics Laboratory (CBBL-SKKU)](https://balalab-skku.org/).
 
