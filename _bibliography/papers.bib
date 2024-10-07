@@ -3,113 +3,62 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{nguyen-etal-2024-lang2mol,
+    title = "{L}ang2{M}ol-Diff: A Diffusion-Based Generative Model for Language-to-Molecule Translation Leveraging {SELFIES} Representation",
+    author = "Nguyen, Nguyen  and
+      Pham, Nhat Truong  and
+      Tran, Duong  and
+      Manavalan, Balachandran",
+    editor = "Edwards, Carl  and
+      Wang, Qingyun  and
+      Li, Manling  and
+      Zhao, Lawrence  and
+      Hope, Tom  and
+      Ji, Heng",
+    booktitle = "Proceedings of the 1st Workshop on Language + Molecules (L+M 2024)",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.langmol-1.15",
+    doi = "10.18653/v1/2024.langmol-1.15",
+    pages = "128--134",
+    abstract = "Generating de novo molecules from textual descriptions is challenging due to potential issues with molecule validity in SMILES representation and limitations of autoregressive models. This work introduces Lang2Mol-Diff, a diffusion-based language-to-molecule generative model using the SELFIES representation. Specifically, Lang2Mol-Diff leverages the strengths of two state-of-the-art molecular generative models: BioT5 and TGM-DLM. By employing BioT5 to tokenize the SELFIES representation, Lang2Mol-Diff addresses the validity issues associated with SMILES strings. Additionally, it incorporates a text diffusion mechanism from TGM-DLM to overcome the limitations of autoregressive models in this domain. To the best of our knowledge, this is the first study to leverage the diffusion mechanism for text-based de novo molecule generation using the SELFIES molecular string representation. Performance evaluation on the L+M-24 benchmark dataset shows that Lang2Mol-Diff outperforms all existing methods for molecule generation in terms of validity. Our code and pre-processed data are available at https://github.com/nhattruongpham/mol-lang-bridge/tree/lang2mol/.",
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@inproceedings{tran-etal-2024-mol2lang,
+    title = "{M}ol2{L}ang-{VLM}: Vision- and Text-Guided Generative Pre-trained Language Models for Advancing Molecule Captioning through Multimodal Fusion",
+    author = "Tran, Duong  and
+      Pham, Nhat Truong  and
+      Nguyen, Nguyen  and
+      Manavalan, Balachandran",
+    editor = "Edwards, Carl  and
+      Wang, Qingyun  and
+      Li, Manling  and
+      Zhao, Lawrence  and
+      Hope, Tom  and
+      Ji, Heng",
+    booktitle = "Proceedings of the 1st Workshop on Language + Molecules (L+M 2024)",
+    month = aug,
+    year = "2024",
+    address = "Bangkok, Thailand",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.langmol-1.12",
+    doi = "10.18653/v1/2024.langmol-1.12",
+    pages = "97--102",
+    abstract = "This paper introduces Mol2Lang-VLM, an enhanced method for refining generative pre-trained language models for molecule captioning using multimodal features to achieve more accurate caption generation. Our approach leverages the encoder and decoder blocks of the Transformer-based architecture by introducing third sub-layers into both. Specifically, we insert sub-layers in the encoder to fuse features from SELFIES strings and molecular images, while the decoder fuses features from SMILES strings and their corresponding descriptions. Moreover, cross multi-head attention is employed instead of common multi-head attention to enable the decoder to attend to the encoder{'}s output, thereby integrating the encoded contextual information for better and more accurate caption generation. Performance evaluation on the CheBI-20 and L+M-24 benchmark datasets demonstrates Mol2Lang-VLM{'}s superiority, achieving higher accuracy and quality in caption generation compared to existing methods. Our code and pre-processed data are available at https://github.com/nhattruongpham/mol-lang-bridge/tree/mol2lang/.",
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@article{TRAN2025125437,
+title = {SwinTExCo: Exemplar-based video colorization using Swin Transformer},
+journal = {Expert Systems with Applications},
+volume = {260},
+pages = {125437},
+year = {2025},
+issn = {0957-4174},
+doi = {https://doi.org/10.1016/j.eswa.2024.125437},
+url = {https://www.sciencedirect.com/science/article/pii/S0957417424023042},
+author = {Duong Thanh Tran and Nguyen Doan Hieu Nguyen and Trung Thanh Pham and Phuong-Nam Tran and Thuy-Duong Thi Vu and Cuong Tuan Nguyen and Hanh Dang-Ngoc and Duc Ngoc Minh Dang},
+keywords = {Computer vision, Image colorization, Video colorization, Exemplar-based, Vision transformer, Swin transformer},
+abstract = {Video colorization represents a compelling domain within the field of Computer Vision. The traditional approach in this field relies on Convolutional Neural Networks (CNNs) to extract features from each video frame and employs a recurrent network to learn information between video frames. While demonstrating considerable success in colorization, most traditional CNNs suffer from a limited receptive field size, capturing local information within a fixed-sized window. Consequently, they struggle to directly grasp long-range dependencies or pixel relationships that span large image or video frame areas. To address this limitation, recent advancements in the field have leveraged Vision Transformer (ViT) and their variants to enhance performance. This article introduces Swin Transformer Exemplar-based Video Colorization (SwinTExCo), an end-to-end model for the video colorization process that incorporates the Swin Transformer architecture as the backbone. The experimental results demonstrate that our proposed method outperforms many other state-of-the-art methods in both quantitative and qualitative metrics. The achievements of this research have significant implications for the domain of documentary and history video restoration, contributing to the broader goal of preserving cultural heritage and facilitating a deeper understanding of historical events through enhanced audiovisual materials.}
 }
