@@ -73,12 +73,16 @@ layout: default
       </div>
     {% endif %}
 
+    <div style="margin:0 auto">
+      <script
+        type="text/javascript"
+        id="mapmyvisitors"
+        src="//mapmyvisitors.com/map.js?d=KtvNHUY5-TdESiVIkCUHZWwSMtoJ-OYWlL41Rb6bR10&cl=ffffff&w=a"
+      ></script>
+    </div>
+
     {% if site.newsletter.enabled and site.footer_fixed %}
       {% include scripts/newsletter.liquid center=true %}
     {% endif %}
-
-    <div style="margin:0 auto">
-      <script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=dOX84Dp01EV_NuMgE_kVBID-Z9cwwOMwgn26qf4lnUI"></script>
-    </div>
   </article>
 </div>
