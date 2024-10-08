@@ -3,6 +3,23 @@
 
 @string{aps = {American Physical Society,}}
 
+@INPROCEEDINGS{10393505,
+  author={Tran, Duong Thanh and Nguyen, Nguyen Doan Hieu and Pham, Trung Thanh and Tran, Phuong-Nam and Vu, Thuy-Duong Thi and Dang, Duc Ngoc Minh},
+  booktitle={2023 14th International Conference on Information and Communication Technology Convergence (ICTC)}, 
+  title={Vitexco: Exemplar-based Video Colorization using Vision Transformer}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={59-64},
+  abstract={In the field of image and video colorization, the existing research employs a CNN to extract information from each video frame. However, due to the local nature of a kernel, it is challenging for CNN to capture the relationships between each pixel and others in an image, leading to inaccurate colorization. To solve this issue, we introduce an end-to-end network called Vitexco for colorizing videos. Vitexco utilizes the power of the Vision Transformer (ViT) to capture the relationships among all pixels in a frame with each other, providing a more effective method for colorizing video frames. We evaluate our approach on DAVIS datasets and demonstrate that it outperforms the state-of-the-art methods regarding color accuracy and visual quality. Our findings suggest that using a ViT can significantly enhance the performance of video colorization.},
+  keywords={Measurement;Visualization;Image color analysis;Transformers;Information and communication technology;Data mining;Kernel;image colorization;video colorization;exemplar-based;vision transformer},
+  doi={10.1109/ICTC58733.2023.10393505},
+  ISSN={2162-1241},
+  month={Oct},
+  bibtex_show=True,
+  html={https://ieeexplore.ieee.org/abstract/document/10393505}
+}
+
 @inproceedings{nguyen-etal-2024-lang2mol,
     title = "{L}ang2{M}ol-Diff: A Diffusion-Based Generative Model for Language-to-Molecule Translation Leveraging {SELFIES} Representation",
     author = "Nguyen, Nguyen  and
@@ -24,6 +41,9 @@
     doi = "10.18653/v1/2024.langmol-1.15",
     pages = "128--134",
     abstract = "Generating de novo molecules from textual descriptions is challenging due to potential issues with molecule validity in SMILES representation and limitations of autoregressive models. This work introduces Lang2Mol-Diff, a diffusion-based language-to-molecule generative model using the SELFIES representation. Specifically, Lang2Mol-Diff leverages the strengths of two state-of-the-art molecular generative models: BioT5 and TGM-DLM. By employing BioT5 to tokenize the SELFIES representation, Lang2Mol-Diff addresses the validity issues associated with SMILES strings. Additionally, it incorporates a text diffusion mechanism from TGM-DLM to overcome the limitations of autoregressive models in this domain. To the best of our knowledge, this is the first study to leverage the diffusion mechanism for text-based de novo molecule generation using the SELFIES molecular string representation. Performance evaluation on the L+M-24 benchmark dataset shows that Lang2Mol-Diff outperforms all existing methods for molecule generation in terms of validity. Our code and pre-processed data are available at https://github.com/nhattruongpham/mol-lang-bridge/tree/lang2mol/.",
+    bibtex_show=True,
+    html={https://aclanthology.org/2024.langmol-1.15},
+    code={https://github.com/nhattruongpham/mol-lang-bridge/tree/lang2mol}
 }
 
 @inproceedings{tran-etal-2024-mol2lang,
@@ -47,18 +67,24 @@
     doi = "10.18653/v1/2024.langmol-1.12",
     pages = "97--102",
     abstract = "This paper introduces Mol2Lang-VLM, an enhanced method for refining generative pre-trained language models for molecule captioning using multimodal features to achieve more accurate caption generation. Our approach leverages the encoder and decoder blocks of the Transformer-based architecture by introducing third sub-layers into both. Specifically, we insert sub-layers in the encoder to fuse features from SELFIES strings and molecular images, while the decoder fuses features from SMILES strings and their corresponding descriptions. Moreover, cross multi-head attention is employed instead of common multi-head attention to enable the decoder to attend to the encoder{'}s output, thereby integrating the encoded contextual information for better and more accurate caption generation. Performance evaluation on the CheBI-20 and L+M-24 benchmark datasets demonstrates Mol2Lang-VLM{'}s superiority, achieving higher accuracy and quality in caption generation compared to existing methods. Our code and pre-processed data are available at https://github.com/nhattruongpham/mol-lang-bridge/tree/mol2lang/.",
+    bibtex_show=True,
+    html={https://aclanthology.org/2024.langmol-1.12},
+    code={https://github.com/nhattruongpham/mol-lang-bridge/tree/mol2lang}
 }
 
 @article{TRAN2025125437,
-title = {SwinTExCo: Exemplar-based video colorization using Swin Transformer},
-journal = {Expert Systems with Applications},
-volume = {260},
-pages = {125437},
-year = {2025},
-issn = {0957-4174},
-doi = {https://doi.org/10.1016/j.eswa.2024.125437},
-url = {https://www.sciencedirect.com/science/article/pii/S0957417424023042},
-author = {Duong Thanh Tran and Nguyen Doan Hieu Nguyen and Trung Thanh Pham and Phuong-Nam Tran and Thuy-Duong Thi Vu and Cuong Tuan Nguyen and Hanh Dang-Ngoc and Duc Ngoc Minh Dang},
-keywords = {Computer vision, Image colorization, Video colorization, Exemplar-based, Vision transformer, Swin transformer},
-abstract = {Video colorization represents a compelling domain within the field of Computer Vision. The traditional approach in this field relies on Convolutional Neural Networks (CNNs) to extract features from each video frame and employs a recurrent network to learn information between video frames. While demonstrating considerable success in colorization, most traditional CNNs suffer from a limited receptive field size, capturing local information within a fixed-sized window. Consequently, they struggle to directly grasp long-range dependencies or pixel relationships that span large image or video frame areas. To address this limitation, recent advancements in the field have leveraged Vision Transformer (ViT) and their variants to enhance performance. This article introduces Swin Transformer Exemplar-based Video Colorization (SwinTExCo), an end-to-end model for the video colorization process that incorporates the Swin Transformer architecture as the backbone. The experimental results demonstrate that our proposed method outperforms many other state-of-the-art methods in both quantitative and qualitative metrics. The achievements of this research have significant implications for the domain of documentary and history video restoration, contributing to the broader goal of preserving cultural heritage and facilitating a deeper understanding of historical events through enhanced audiovisual materials.}
+  title = {SwinTExCo: Exemplar-based video colorization using Swin Transformer},
+  journal = {Expert Systems with Applications},
+  volume = {260},
+  pages = {125437},
+  year = {2025},
+  issn = {0957-4174},
+  doi = {https://doi.org/10.1016/j.eswa.2024.125437},
+  url = {https://www.sciencedirect.com/science/article/pii/S0957417424023042},
+  author = {Duong Thanh Tran and Nguyen Doan Hieu Nguyen and Trung Thanh Pham and Phuong-Nam Tran and Thuy-Duong Thi Vu and Cuong Tuan Nguyen and Hanh Dang-Ngoc and Duc Ngoc Minh Dang},
+  keywords = {Computer vision, Image colorization, Video colorization, Exemplar-based, Vision transformer, Swin transformer},
+  abstract = {Video colorization represents a compelling domain within the field of Computer Vision. The traditional approach in this field relies on Convolutional Neural Networks (CNNs) to extract features from each video frame and employs a recurrent network to learn information between video frames. While demonstrating considerable success in colorization, most traditional CNNs suffer from a limited receptive field size, capturing local information within a fixed-sized window. Consequently, they struggle to directly grasp long-range dependencies or pixel relationships that span large image or video frame areas. To address this limitation, recent advancements in the field have leveraged Vision Transformer (ViT) and their variants to enhance performance. This article introduces Swin Transformer Exemplar-based Video Colorization (SwinTExCo), an end-to-end model for the video colorization process that incorporates the Swin Transformer architecture as the backbone. The experimental results demonstrate that our proposed method outperforms many other state-of-the-art methods in both quantitative and qualitative metrics. The achievements of this research have significant implications for the domain of documentary and history video restoration, contributing to the broader goal of preserving cultural heritage and facilitating a deeper understanding of historical events through enhanced audiovisual materials.},
+  bibtex_show=True
+  html={https://www.sciencedirect.com/science/article/pii/S0957417424023042},
+  code={https://github.com/chronopt-Research/SwinTExCo/}
 }
