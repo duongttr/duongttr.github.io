@@ -63,6 +63,46 @@ div.lazy {
     font-size: 100%;
 }
 
+.badge-pub-journal-rank-q1 {
+    color: #fff;
+    background-color: #4D55CC;
+}
+
+.badge-pub-journal-if {
+    color: #fff;
+    background-color: #E07A5F;
+}
+
+.badge-pub-conf {
+    color: #fff;
+    background-color: #00879E;
+}
+
+.limited-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Show only 2 lines initially */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  .expanded {
+    -webkit-line-clamp: unset; /* Show full text when expanded */
+  }
+  
+.toggle-btn {
+    cursor: pointer; /* Hand cursor on hover */
+}
+
+.toggle-btn::after {
+    content: "\f078"; /* Unicode for FontAwesome down arrow */
+    font-family: "FontAwesome";
+    margin-left: 5px;
+}
+
+.toggle-btn[data-state="expanded"]::after {
+    content: "\f077"; /* Up arrow */
+}
+
 .email-text {
     font-family: Courier, monospace;
 }

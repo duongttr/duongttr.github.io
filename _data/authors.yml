@@ -1,22 +1,30 @@
-"Your Name":
+"Duong Thanh Tran":
   bold: true
 
-"Robert White":
-  url: https://www.google.com/?q=Robert+White
+"nguyenndh":
+  name: Nguyen Doan Hieu Nguyen
+  url: https://ndhieunguyen.github.io/
 
-"Charles Green (MIT)":
-  name: Charles Green
-  url: https://www.google.com/?q=Charles+Green+MIT
+"trungpt":
+  name: Trung Thanh Pham
+  url: https://scholar.google.com/citations?user=Y9fWf3YAAAAJ
 
-"Charles Green (Stanford)":
-  name: Charles Green
-  url: https://www.google.com/?q=Charles+Green+Stanford
+"truongpn":
+  name: Nhat Truong Pham
+  url: https://nhattruongpham.github.io/
 
-"Garrett Harris":
-  url: https://www.google.com/?q=Garrett+Harris
+"nampt":
+  name: Phuong-Nam Tran
+  url: https://tpnam0901.github.io/
 
-"James Wang":
-  url: https://www.google.com/?q=James+Wang
+"bala":
+  name: Balachandran Manavalan
+  url: https://scholar.google.com/citations?user=0vkenbwAAAAJ
 
-"John Doe":
-  url: https://www.google.com/?q=John+Doe
+"ducnmd":
+  name: Duc Ngoc Minh Dang
+  url: https://dnmduc.github.io/
+
+"cuongtn":
+  name: Cuong Tuan Nguyen
+  url: https://ntcuong2103.github.io/
