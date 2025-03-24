@@ -3,9 +3,9 @@ secondary_name: "진성양"
 navbar_name: "🤫 Duong Thanh Tran"
 
 positions:
-- logo: /assets/images/badges/skku.png  # Logo is optional
+- logo: /assets/images/badges/skku.webp  # Logo is optional
   name: Ph.D. Student
-- logo: /assets/images/badges/cbbl.png
+- logo: /assets/images/badges/cbbl.webp
   name: Full-time Researcher
 
 
@@ -14,7 +14,7 @@ email: "duongtt@skku.edu"
 gscholar: kz_chQ4AAAAJ  # This is an example, replace it with your own Google Scholar ID
 github: duongttr
 twitter: duongttr  # Do not include the '@' symbol
-# wechat_qrcode: /assets/images/etc/wechat.jpg
+# wechat_qrcode: /assets/images/etc/wechat.webp
 # wechat_prompt: >-
 #   Please tell me your <strong>name</strong> and <strong>affiliation</strong> (current or past) when adding my wechat. Thanks!
 linkedin: duonggg
@@ -29,29 +29,29 @@ short_bio: >-
     <strong>Research Interests</strong>: Artificial Intelligence, ML/DL, XAI, Computer Vision, Bioinformatics.
   </p>
 
-portrait_url: /assets/images/photos/duongttr.png
+portrait_url: /assets/images/photos/duongttr.webp
 portrait_caption: >-
   This guy is Duong.
 
 education:
 - name: Sungkyunkwan University
-  logo: /assets/images/badges/skku.png
+  logo: /assets/images/badges/skku.webp
   position: >- 
     Department of Integrative Biotechnology <br/>
     Ph.D. Student
   date: Sep. 2024 - present
 - name: FPT University
-  logo: /assets/images/badges/fptu.png
+  logo: /assets/images/badges/fptu.webp
   position: B.S. in Information Technology
   date: Sep. 2020 - Dec. 2023
 
 experience:
 - name: GMO-Z.com RUNSYSTEM
-  logo: /assets/images/badges/gmo.png
+  logo: /assets/images/badges/gmo.webp
   position: Machine Learning Researcher
   date: Oct. 2023 - Aug. 2024
 - name: Viettel High Tech
-  logo: /assets/images/badges/vht.png
+  logo: /assets/images/badges/vht.webp
   position: AI Engineer Intern
   date: Apr. 2022 - Jul. 2022
 
