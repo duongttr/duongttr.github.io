@@ -39,6 +39,7 @@ def process_images(folder):
                 optimize_image(image_path)
 
 if __name__ == "__main__":
-    input_folder = "."  # Change this to your folder
-    process_images(input_folder)
-    print("All images optimized successfully!")
+    # input_folder = "."  # Change this to your folder
+    # process_images(input_folder)
+    # print("All images optimized successfully!")
+    optimize_image("/home/cbbl2/Documents/codes/duongttr.github.io/assets/images/covers/XMolCap.png")
