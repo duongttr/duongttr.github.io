@@ -83,6 +83,7 @@ div.lazy {
     -webkit-line-clamp: 3; /* Show only 2 lines initially */
     -webkit-box-orient: vertical;
     overflow: hidden;
+    text-align: justify;
   }
   
   .expanded {
